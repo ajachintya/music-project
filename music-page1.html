@@ -1,0 +1,753 @@
+<html>
+    <head>
+        <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="music.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimus-scale=1">
+    
+    </head>
+    <body>
+        <header class="sticky">
+             <div class="inb main-icon">
+                  <img src="Image/spotify.png">
+                  <spna class="inb"><h2>Spotify</h2></spna>
+                  
+             </div>
+             <div class="inb fav">
+                <a hre="">Favourite</a>
+             </div>
+             <span class="hovers">
+             <i id="hover-search" class="fas fa fa-search"></i>
+             <div class="search-bar inb">
+                 <form>
+                  <button type="button" id="search-icon"><i class="fas fa fa-search"></i></button>
+                  <input id="search-input-field" type="search" placeholder="Search.." required>
+                  <button id="voice-search" type="button"><i class="fas fa fa-microphone"></i></button>
+                  </form>
+             </div>
+             </span>
+             <div id="notification-icon" class="inb">
+                  <a href=""><i class="fas fa fa-bell"></i></a>
+             </div>
+             <div id="profile" class="inb">
+                  <div id="profile-photo" class="inb">
+                      <img src="Image/john.jpg">
+                  </div>
+                  <div id="profile-menu">
+                      <br>
+                       <a href="">Profile</a><br><br>
+                       <a href="">Setting</a><br><br>
+                       <a href="">Logout</a>
+                  </div>
+             </div>
+       </header>
+       <div id="main-content" class="scroll">
+       <section id="carousel">
+              <div class="img1 inb">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/0/0e/Green_Day_-_Last_Night_on_Earth-Live_in_Tokyo_cover.jpg" alt="green-day">
+              </div>
+              <div class="img3 inb">
+                    <img src="https://lqp-p-imgs.s3-ap-south-1.amazonaws.com/faceview/a5j/d9a/ia/a1f/affimgs/az-large-5803009.jpg" alt="linkin-park">
+            </div>    
+                <div class="img2 inb">
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgxpqOFix0MInIu4d6g5SHj3MDnynyDKFZXNlS5BRa8vD563Wf" alt="one-direction">
+                </div> 
+       </section>
+       <section id="latest" class="scroll">
+            <div class="heading"> <h2><b>Latest Release</b></h2></div>
+            <div class="latest-songs">
+                    <div class="latest-details">
+                            <b>Onism</b><span>44.4</span>
+                            <p>AUG 11,2017</p>
+                    </div>
+                <div class="latest-release-img inb">
+                    <a href="#player"><img src="Image/onis.jpg">
+                   <div class="latest-icon-play">
+                        <i class="fas fa fa-play"></i>
+                    </div></a>
+                    <div class="dropdown-menu inb">
+                            <span id="dots"><i class="fas fa fa-ellipsis-h"></i></span>
+                            <div class ="dropdown-list">
+                                    <ul class = "no-list-style-latest">
+                                        <li >
+                                            <a href="#"> Play Now </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Add To Queue </a>
+                                        </li>
+                                    </ul>
+                              </div>
+                              
+                        </div>
+                </div>      
+            </div>
+            <div class="latest-songs">
+                    <div class="latest-details">
+                            <b>Onism</b><span>44.4</span>
+                            <p>AUG 11,2017</p>
+                    </div>
+                    <div class="latest-release-img inb">
+                           <a href="#player"><img src="Image/onis.jpg">
+                            <div class="latest-icon-play inb">
+                                    <i class="fas fa fa-play"></i>
+                            </div></a>
+                            <div class="dropdown-menu inb">
+                                    <span id="dots"><i class="fas fa fa-ellipsis-h"></i></span>
+                                    <div class ="dropdown-list">
+                                            <ul class = "no-list-style-latest">
+                                                <li >
+                                                    <a href="#"> Play Now </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Add To Queue </a>
+                                                </li>
+                                            </ul>
+                                </div>
+                                   </div>
+                        </div>
+            </div>
+            <div class="latest-songs">
+                    <div class="latest-details">
+                            <b>Onism</b><span>44.4</span>
+                            <p>AUG 11,2017</p>
+                    </div>
+                    <div class="latest-release-img inb">
+                            <a href="#player"><img src="Image/onis.jpg">
+                            <div class="latest-icon-play inb">
+                                    <i class="fas fa fa-play"></i>
+                            </div>
+                            </a>
+                            <div class="dropdown-menu inb">
+                                    <span id="dots"><i class="fas fa fa-ellipsis-h"></i></span>
+                                    <div class ="dropdown-list">
+                                            <ul class = "no-list-style-latest">
+                                                <li >
+                                                    <a href="#"> Play Now </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Add To Queue </a>
+                                                </li>
+                                            </ul>
+                                </div>
+                                   </div>
+                        </div>
+             </div>
+             <div class="latest-songs">
+                    <div class="latest-details">
+                            <b>Onism</b><span>44.4</span>
+                            <p>AUG 11,2017</p>
+                    </div>
+                    <div class="latest-release-img inb">
+                            <a href="#player"><img src="Image/onis.jpg">
+                            <div class="latest-icon-play inb">
+                                    <i class="fas fa fa-play"></i>
+                            </div></a>
+                            <div class="dropdown-menu inb">
+                                    <span id="dots"><i class="fas fa fa-ellipsis-h"></i></span>
+                                    <div class ="dropdown-list">
+                                            <ul class = "no-list-style-latest">
+                                                <li >
+                                                    <a href="#"> Play Now </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Add To Queue </a>
+                                                </li>
+                                            </ul>
+                                    </div>
+                                    
+                            </div>
+                    </div>
+            </div> 
+            
+       </section>
+       <section id="popular-artist" class="scroll">
+            <h2><b>Popular Artist</b></h2>
+            <div id="artist">
+                <a href="./music-page2.html">
+                    <div class="a1">
+                  <img src="Image/ed.jpg">
+                  <span class="artist-name ">Ed Sheeran</span>
+                </div>
+                </a>
+                <a href="./music-page2.html">
+                    <div class="a1">
+						<img src="Image/coldplay.jpg">
+						<span class="artist-name n2">Cold Play</span>
+                    </div>
+                </a>
+            <a href="./music-page2.html">
+                <div class="a1">
+                    <img src="Image/zayn.jpg">
+                    <span class="artist-name n3">Zayn Malik</span>
+                </div>
+            </a>
+            <a href="./music-page2.html">
+                    <div class="a1">
+                        <img src="Image/charlie.jpg">
+                        <span class="artist-name n4">Charlie Puth</span>
+                    </div>
+            </a>
+            <a href="./music-page2.html">
+                    <div class="a1">
+                        <img src="Image/imagine.jpg">
+                        <span class="artist-name n5">Imagine Dragons</span>
+                    </div>
+            </a>
+            <a href="./music-page2.html">
+                    <div class="a1">
+                        <img src="Image/bruno.jpg">
+                        <span class="artist-name n6">Bruno Mars</span>
+                    </div>
+            </a>
+            </div>
+       </section>
+       <section id="genre" class="scroll" >
+                 <div class="stations"><img src="Image/station.png"></div>
+            <a href="">
+                <div class="i1">
+                   <img src="Image/love.jpg">
+                   <span class="p1">Love</span>
+                </div>
+            </a>
+            <a href="">
+                    <div class="i2">
+                       <img src="Image/retro.jpg">
+                       <span class="p2">Retro</span>
+                    </div>
+                </a>
+                <a href="">
+                        <div class="i2">
+                           <img src="Image/chill.jpg">
+                           <span class="p2">Chill</span>
+                        </div>
+                </a>
+                <a href="">
+                        <div class="i2">
+                           <img src="Image/workout.jpg">
+                           <span class="p2">Workout</span>
+                        </div>
+                </a>
+                <a href="">
+                        <div class="i2">
+                           <img src="Image/rock.png">
+                           <span class="p2">Rock</span>
+                        </div>
+                </a>
+                <a href="">
+                        <div class="i2">
+                           <img src="Image/pop.jpg">
+                           <span class="p2">Pop</span>
+                        </div>
+                </a>
+            
+       </section>
+       <section id="group" class="scroll">
+                 <a href="">
+                     <div class="group1">
+                        <img src="Image/party.jpg">
+                        <span class="g1">Party</span>
+                     </div>
+
+                 </a>
+                 <a href="">
+                        <div class="group1">
+                           <img src="Image/electronic.jpg">
+                           <span class="g2">Electronic</span>
+                        </div>
+   
+                    </a>
+                    <a href="">
+                            <div class="group1">
+                               <img src="Image/road.jpg">
+                               <span class="g2">Road Trip</span>
+                            </div>
+       
+                        </a>
+       </section>
+       <section id="english" class="scroll">
+            <h2><b>Latest English</b></h2>
+                <a href="#player">
+                    <div class="x1">
+                        <img src="Image/download.jpg">
+                        <div class="play1">
+                            <i class="fas fa fa-play"></i>
+                        </div>
+                         <span>
+                         <h3>Onism</h3>
+                         <p>AUG,11 2017</p>
+                         </span>
+
+                    </div>
+                </a>
+                <a href="#player">
+                        <div class="x1 x2">
+                            <img src="Image/music.jpg">
+                            <div class="play1">
+                                <i class="fas fa fa-play"></i>
+                            </div>
+                             <span>
+                             <h3>Onism</h3>
+                             <p>AUG,11 2017</p>
+                             </span>
+    
+                        </div>
+                    </a>
+                    <a href="#player">
+                            <div class="x1 x3">
+                                <img src="Image/download.jpg">
+                                <div class="play1">
+                                    <i class="fas fa fa-play"></i>
+                                </div>
+                                 <span>
+                                 <h3>Onism</h3>
+                                 <p>AUG,11 2017</p>
+                                 </span>
+        
+                            </div>
+                        </a>
+                        <a href="#player">
+                                <div class="x1 x4">
+                                    <img src="Image/music.jpg">
+                                    <div class="play1">
+                                        <i class="fas fa fa-play"></i>
+                                    </div>
+                                     <span>
+                                     <h3>Onism</h3>
+                                     <p>AUG,11 2017</p>
+                                     </span>
+            
+                                </div>
+                            </a>
+                            <a href="#player">
+                                    <div class="x1 x5">
+                                        <img src="Image/download.jpg">
+                                        <div class="play1">
+                                            <i class="fas fa fa-play"></i>
+                                        </div>
+                                         <span>
+                                         <h3>Onism</h3>
+                                         <p>AUG,11 2017</p>
+                                         </span>
+                
+                                    </div>
+                                </a>
+                                <a href="#player">
+                                        <div class="x1 x6">
+                                            <img src="Image/music.jpg">
+                                            <div class="play1">
+                                                <i class="fas fa fa-play"></i>
+                                            </div>
+                                             <span>
+                                             <h3>Onism</h3>
+                                             <p>AUG,11 2017</p>
+                                             </span>
+                    
+                                        </div>
+                                    </a>
+       </section>
+       <section id="hindi" class="scroll">
+            <h2><b>Latest Hindi</b></h2>
+            <a href="#player">
+                <div class="x1">
+                    <img src="Image/music.jpg">
+                    <div class="play1">
+                        <i class="fas fa fa-play"></i>
+                    </div>
+                     <span>
+                     <h3>Onism</h3>
+                     <p>AUG,11 2017</p>
+                     </span>
+
+                </div>
+            </a>
+            <a href="#player">
+                    <div class="x1 x2">
+                        <img src="Image/download.jpg">
+                        <div class="play1">
+                            <i class="fas fa fa-play"></i>
+                        </div>
+                         <span>
+                         <h3>Onism</h3>
+                         <p>AUG,11 2017</p>
+                         </span>
+
+                    </div>
+                </a>
+                <a href="#player">
+                        <div class="x1 x3">
+                            <img src="Image/music.jpg">
+                            <div class="play1">
+                                <i class="fas fa fa-play"></i>
+                            </div>
+                             <span>
+                             <h3>Onism</h3>
+                             <p>AUG,11 2017</p>
+                             </span>
+    
+                        </div>
+                    </a>
+                    <a href="#player">
+                            <div class="x1 x4">
+                                <img src="Image/download.jpg">
+                                <div class="play1">
+                                    <i class="fas fa fa-play"></i>
+                                </div>
+                                 <span>
+                                 <h3>Onism</h3>
+                                 <p>AUG,11 2017</p>
+                                 </span>
+        
+                            </div>
+                        </a>
+                        <a href="#player">
+                                <div class="x1 x5">
+                                    <img src="Image/music.jpg">
+                                    <div class="play1">
+                                        <i class="fas fa fa-play"></i>
+                                    </div>
+                                     <span>
+                                     <h3>Onism</h3>
+                                     <p>AUG,11 2017</p>
+                                     </span>
+            
+                                </div>
+                            </a>
+                            <a href="#player">
+                                    <div class="x1 x6">
+                                        <img src="Image/download.jpg">
+                                        <div class="play1">
+                                            <i class="fas fa fa-play"></i>
+                                        </div>
+                                         <span>
+                                         <h3>Onism</h3>
+                                         <p>AUG,11 2017</p>
+                                         </span>
+                
+                                    </div>
+                                </a>
+       </section>
+       </div>
+       <aside id="aside" class="scroll">
+         <div id="div1">
+            <div id="div2">
+                <div id="queue" class="scroll">
+                    <div class="queue-section">
+                            <h3><b>Queue</b></h3>
+                            <div class="click">
+                                    <span class="change">Queue
+                                         <i class="fas fa fa-chevron-down"></i>
+                                  </span>
+                                  <div class ="dropdown-list">
+                                         <ul class = "no-list-style-queue">
+                                             <li >
+                                                 <a href="#div1"> Queue </a>
+                                             </li>
+                                             <li>
+                                                 <a href="#div2"> Playlist </a>
+                                             </li>
+                                         </ul>
+                                   </div>
+                     
+                               </div>
+                    </div>
+         <div class="queue-songs" class="scroll">
+            <a  href="#player">
+                <div class="r1">
+                   <div id="no">01</div>
+                  <span><img src="Image/music.jpg"></span> 
+                   <div class="but"><i class="fas fa fa-play"></i></div>                 
+                <div class="song-text">
+                    <b>Mirage</b>
+                    <p>Else</p>
+                    <i class="far fa fa-heart-o"></i>
+                </div>
+            </div>
+            </a>
+            <a  href="#player">
+                    <div class="r1 r2">
+                       <div id="no">02</div>
+                      <span><img src="Image/Flume_-_Skin.png"></span> 
+                       <div class="but"><i class="fas fa fa-play"></i></div>                 
+                    <div class="song-text">
+                        <b>New Skin</b>
+                        <p>Flume</p>
+                        <i class="far fa fa-heart-o"></i>
+                    </div>
+                </div>
+                </a>
+                <a  href="#player">
+                        <div class="r1 r3">
+                           <div id="no">03</div>
+                          <span><img src="Image/music.jpg"></span> 
+                           <div class="but"><i class="fas fa fa-play"></i></div>                 
+                        <div class="song-text">
+                            <b>Mirage</b>
+                            <p>Else</p>
+                            <i class="far fa fa-heart-o"></i>
+                        </div>
+                    </div>
+                    </a>
+                    <a  href="#player">
+                            <div class="r1 r4">
+                               <div id="no">04</div>
+                              <span><img src="Image/Flume_-_Skin.png"></span> 
+                               <div class="but"><i class="fas fa fa-play"></i></div>                 
+                            <div class="song-text">
+                                <b>New SKin</b>
+                                <p>Flume</p>
+                                <i class="far fa fa-heart-o"></i>
+                            </div>
+                        </div>
+                        </a>
+                        <a  href="#player">
+                                <div class="r1 r5">
+                                   <div id="no">05</div>
+                                  <span><img src="Image/music.jpg"></span> 
+                                   <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                <div class="song-text">
+                                    <b>Mirage</b>
+                                    <p>Else</p>
+                                    <i class="far fa fa-heart-o"></i>
+                                </div>
+                            </div>
+                            </a>
+                            <a  href="#player">
+                                    <div class="r1 r6">
+                                       <div id="no">06</div>
+                                      <span><img src="Image/Flume_-_Skin.png"></span> 
+                                       <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                    <div class="song-text">
+                                        <b>New Skin</b>
+                                        <p>Flume</p>
+                                        <i class="far fa fa-heart-o"></i>
+                                    </div>
+                                </div>
+                            </a>
+                            <a  href="#player">
+                                    <div class="r1 r7">
+                                       <div id="no">07</div>
+                                      <span><img src="Image/music.jpg"></span> 
+                                       <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                    <div class="song-text">
+                                        <b>Mirage</b>
+                                        <p>Else</p>
+                                        <i class="far fa fa-heart-o"></i>
+                                    </div>
+                                </div>
+                           </a>
+                           <a  href="#player">
+                                <div class="r1 r8">
+                                   <div id="no">08</div>
+                                  <span><img src="Image/Flume_-_Skin.png"></span> 
+                                   <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                <div class="song-text">
+                                    <b>New Skin</b>
+                                    <p>Flume</p>
+                                    <i class="far fa fa-heart-o"></i>
+                                </div>
+                            </div>
+                            </a>
+                            <a  href="#player">
+                                    <div class="r1 r9">
+                                       <div id="no">09</div>
+                                      <span><img src="Image/music.jpg"></span> 
+                                       <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                    <div class="song-text">
+                                        <b>Mirage</b>
+                                        <p>Else</p>
+                                        <i class="far fa fa-heart-o"></i>
+                                    </div>
+                                </div>
+                                </a>
+                                <a  href="#player">
+                                        <div class="r1 r10">
+                                           <div id="no">10</div>
+                                          <span><img src="Image/Flume_-_Skin.png"></span> 
+                                           <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                        <div class="song-text">
+                                            <b>New Skin</b>
+                                            <p>Flume</p>
+                                            <i class="far fa fa-heart-o"></i>
+                                        </div>
+                                    </div>
+                                    </a>                      
+                           </div>
+            </div>
+            <div id="playlist" class="scroll">
+                    <div class=playlist-section>
+                            <h3><b>My Playlist</b></h3>
+                            <div class="click">
+                                    <span class="change">Queue
+                                         <i class="fas fa fa-chevron-down"></i>
+                                  </span>
+                                  <div class ="dropdown-list">
+                                         <ul class = "no-list-style-play">
+                                             <li >
+                                                 <a href="#div1"> Queue </a>
+                                             </li>
+                                             <li>
+                                                 <a href="#div">Playlist</a>
+                                             </li>
+                                         </ul>
+                                   </div>
+                     
+                               </div>
+                    </div>
+                    <div class="queue-songs" class="scroll">
+                            <a  href="#player">
+                                <div class="r1">
+                                   <div id="no">01</div>
+                                  <span><img src="Image/mir.jpg"></span> 
+                                   <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                <div class="song-text">
+                                    <b>Mirage</b>
+                                    <p>Else</p>
+                                    <i class="far fa fa-heart-o"></i>
+                                </div>
+                            </div>
+                            </a>
+                            <a  href="#player">
+                                    <div class="r1 r2">
+                                       <div id="no">02</div>
+                                      <span><img src="Image/Flume_-_Skin.png"></span> 
+                                       <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                    <div class="song-text">
+                                        <b>New Skin</b>
+                                        <p>Flume</p>
+                                        <i class="far fa fa-heart-o"></i>
+                                    </div>
+                                </div>
+                                </a>
+                                <a  href="#player">
+                                        <div class="r1 r3">
+                                           <div id="no">03</div>
+                                          <span><img src="Image/mir.jpg"></span> 
+                                           <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                        <div class="song-text">
+                                            <b>Mirage</b>
+                                            <p>Else</p>
+                                            <i class="far fa fa-heart-o"></i>
+                                        </div>
+                                    </div>
+                                    </a>
+                                    <a  href="#player">
+                                            <div class="r1 r4">
+                                               <div id="no">04</div>
+                                              <span><img src="Image/Flume_-_Skin.png"></span> 
+                                               <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                            <div class="song-text">
+                                                <b>New SKin</b>
+                                                <p>Flume</p>
+                                                <i class="far fa fa-heart-o"></i>
+                                            </div>
+                                        </div>
+                                        </a>
+                                        <a  href="#player">
+                                                <div class="r1 r5">
+                                                   <div id="no">05</div>
+                                                  <span><img src="Image/mir.jpg"></span> 
+                                                   <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                                <div class="song-text">
+                                                    <b>Mirage</b>
+                                                    <p>Else</p>
+                                                    <i class="far fa fa-heart-o"></i>
+                                                </div>
+                                            </div>
+                                            </a>
+                                            <a  href="#player">
+                                                    <div class="r1 r6">
+                                                       <div id="no">06</div>
+                                                      <span><img src="Image/Flume_-_Skin.png"></span> 
+                                                       <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                                    <div class="song-text">
+                                                        <b>New Skin</b>
+                                                        <p>Flume</p>
+                                                        <i class="far fa fa-heart-o"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a  href="#player">
+                                                    <div class="r1 r7">
+                                                       <div id="no">07</div>
+                                                      <span><img src="Image/mir.jpg"></span> 
+                                                       <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                                    <div class="song-text">
+                                                        <b>Mirage</b>
+                                                        <p>Else</p>
+                                                        <i class="far fa fa-heart-o"></i>
+                                                    </div>
+                                                </div>
+                                           </a>
+                                           <a  href="#player">
+                                                <div class="r1 r8">
+                                                   <div id="no">08</div>
+                                                  <span><img src="Image/Flume_-_Skin.png"></span> 
+                                                   <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                                <div class="song-text">
+                                                    <b>New Skin</b>
+                                                    <p>Flume</p>
+                                                    <i class="far fa fa-heart-o"></i>
+                                                </div>
+                                            </div>
+                                            </a>
+                                            <a  href="#player">
+                                                    <div class="r1 r9">
+                                                       <div id="no">09</div>
+                                                      <span><img src="Image/mir.jpg"></span> 
+                                                       <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                                    <div class="song-text">
+                                                        <b>Mirage</b>
+                                                        <p>Else</p>
+                                                        <i class="far fa fa-heart-o"></i>
+                                                    </div>
+                                                </div>
+                                                </a>
+                                                <a  href="#player">
+                                                        <div class="r1 r10">
+                                                           <div id="no">10</div>
+                                                          <span><img src="Image/Flume_-_Skin.png"></span> 
+                                                           <div class="but"><i class="fas fa fa-play"></i></div>                 
+                                                        <div class="song-text">
+                                                            <b>New Skin</b>
+                                                            <p>Flume</p>
+                                                            <i class="far fa fa-heart-o"></i>
+                                                        </div>
+                                                    </div>
+                                                    </a>                      
+                                           </div>        
+            </div>
+            </div>
+        </div>
+       </aside>
+        <footer id="player" class="inb">
+            <div id="song-img" class="inb">
+                   <img src="Image/some.jpg">
+            </div>  
+            <div class="songs-names inb">
+                    <b>Somthing just like this</b><br>
+                    <p>Memories</p>
+            </div>
+            <div class="song-icon inb">
+                    <i id="heart" class="far fa fa-heart-o inb"></i>
+                    <i id="plus" class="fas fa fa-ban"></i>
+            </div>
+            <div class="inb audio-play">
+                <i id="audio-pl" class="far fa fa-play-circle-o"></i>
+                <i id="forward" class="fas fa fa-step-forward"></i>
+                <i id="back" class="fas fa fa-step-backward"></i>
+                <i id="ran" class="fas fa fa-random"></i>
+                <i id="share" class="fas fa fa-share"></i>
+                <span id="start">0:00</span> 
+                <span id="end">4:44</span>
+                <div class="audio-len">
+                        <i id="circle" class="fas fa fa-circle"></i>
+                </div>
+                <div class="audio-rev">
+                </div>
+            </div>
+           <a href="#"><i id="close" class="fas fa fa-times"></i></a>
+           <i class="fas fa fa-compress" style=" position:absolute;top:0;right:30;color:white;font-size: 25px;"></i>
+           <i class="fas fa fa-volume-up" style=" position:absolute;top:0;right:60;color:white;font-size: 25px;"></i>
+        </footer>
+    </body>
+</html>

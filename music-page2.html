@@ -1,0 +1,444 @@
+<html>
+    <head>
+        <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="page2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimus-scale=1">
+    
+    </head>
+    <body>
+            <header class="sticky">
+                    <div class="inb main-icon">
+                         <img src="Image/spotify.png">
+                         <spna class="inb"><h2>Spotify</h2></spna>
+                         
+                    </div>
+                    <div class="inb fav">
+                       <a hre="">Favourite</a>
+                    </div>
+                    <span class="hovers">
+                    <i id="hover-search" class="fas fa fa-search"></i>
+                    <div class="search-bar inb">
+                        <form>
+                         <button type="button" id="search-icon"><i class="fas fa fa-search"></i></button>
+                         <input id="search-input-field" type="search" placeholder="Search.." required>
+                         <button id="voice-search" type="button"><i class="fas fa fa-microphone"></i></button>
+                         </form>
+                    </div>
+                    </span>
+                    <div id="notification-icon" class="inb">
+                         <a href=""><i class="fas fa fa-bell"></i></a>
+                    </div>
+                    <div id="profile" class="inb">
+                         <div id="profile-photo" class="inb">
+                             <img src="Image/john.jpg">
+                         </div>
+                         <div id="profile-menu" class="inb">
+                             <br>
+                              <a href="">Profile</a><br><br>
+                              <a href="">Setting</a><br><br>
+                              <a href="">Logout</a>
+                         </div>
+                    </div>
+              </header>
+       <section id="main" class="inb">
+           <section id="band" class="scroll">
+               <div id="band-photo" class="inb">
+                <img src="Image/cold.png">
+               </div>
+               <div id="band-details" class="inb">
+                  <b><h1 id="h1">Coldplay</h1></b>
+                  <span id="followers">851 Followers</span>
+                  <h5 id="h5">British Band</h5>
+                  <p id="about-band">
+                        Coldplay are a British rock band formed in London in 1996. 
+                        The four members–lead vocalist/pianist Chris Martin, lead guitarist Jonny Buckland, bassist Guy Berryman and drummer Will Champion – were at University College London and came together from 1996 to 1998, during which time the band changed names from Pectoralz, to Starfish, then Coldplay.
+                  </p>
+                  <div class="play-btn inb" style="position: absolute;">
+                        <a href="#player"><button type="button">Play All</button></a>
+                        <p>247 Tracks | 128 Albums</p>
+                        <a href=""><span id="follow">Follow</span></a>
+                  </div>
+                  
+               </div>
+           </section>
+           <section id="songs" class="scroll">
+               <div class="song-list">
+                    <span>01</span>
+                    <div class="song-img">
+                        <a href="#player"><img src="Image/mir.jpg"></a>
+                    </div>
+                    <div class="songs-name inb">
+                        <b>Mirage</b><br>
+                        <p>Else</p>
+                    </div>
+                    <div class="song-icon">
+                        <i id="heart" class="far fa fa-heart-o inb"></i>
+                        <i id="plus" class="fas fa fa-plus"></i>
+                    </div>
+               </div>
+               <div class="song-list">
+                    <span>02</span>
+                    <div class="song-img">
+                    <a href="#player"><img src="Image/Flume_-_Skin.png"></a>
+                    </div>
+                    <div class="songs-name inb">
+                        <b>Mirage</b><br>
+                        <p>Else</p>
+                    </div>
+                    <div class="song-icon">
+                        <i id="heart" class="far fa fa-heart-o inb"></i>
+                        <i id="plus" class="fas fa fa-plus"></i>
+                    </div>
+               </div>
+               <div class="song-list">
+                    <span>03</span>
+                    <div class="song-img">
+                        <a href="#player"><img src="Image/mir.jpg"></a>
+                    </div>
+                    <div class="songs-name inb">
+                        <b>Mirage</b><br>
+                        <p>Else</p>
+                    </div>
+                    <div class="song-icon">
+                        <i id="heart" class="far fa fa-heart-o inb"></i>
+                        <i id="plus" class="fas fa fa-plus"></i>
+                    </div>
+               </div>
+                <div class="song-list">
+                    <span>04</span>
+                    <div class="song-img">
+                        <a href="#player"><img src="Image/Flume_-_Skin.png"></a>
+                    </div>
+                    <div class="songs-name inb">
+                        <b>Mirage</b><br>
+                        <p>Else</p>
+                    </div>
+                    <div class="song-icon">
+                        <i id="heart" class="far fa fa-heart-o inb"></i>
+                        <i id="plus" class="fas fa fa-plus"></i>
+                    </div>
+               </div>
+                <div class="song-list">
+                    <span>05</span>
+                    <div class="song-img">
+                        <a href="#player"><img src="Image/mir.jpg"></a>
+                    </div>
+                    <div class="songs-name inb">
+                        <b>Mirage</b><br>
+                        <p>Else</p>
+                    </div>
+                    <div class="song-icon">
+                        <i id="heart" class="far fa fa-heart-o inb"></i>
+                        <i id="plus" class="fas fa fa-plus"></i>
+                    </div>
+               </div>
+                <div class="song-list">
+                    <span>06</span>
+                    <div class="song-img">
+                        <a href="#player"><img src="Image/Flume_-_Skin.png"></a>
+                    </div>
+                    <div class="songs-name inb">
+                        <b>Mirage</b><br>
+                        <p>Else</p>
+                    </div>
+                    <div class="song-icon">
+                        <i id="heart" class="far fa fa-heart-o inb"></i>
+                        <i id="plus" class="fas fa fa-plus"></i>
+                    </div>
+               </div>
+                <div class="song-list">
+                    <span>07</span>
+                    <div class="song-img">
+                        <a href="#player"><img src="Image/mir.jpg"></a>
+                    </div>
+                    <div class="songs-name inb">
+                        <b>Mirage</b><br>
+                        <p>Else</p>
+                    </div>
+                    <div class="song-icon">
+                        <i id="heart" class="far fa fa-heart-o inb"></i>
+                        <i id="plus" class="fas fa fa-plus"></i>
+                    </div>
+               </div>
+                <div class="song-list">
+                    <span>08</span>
+                    <div class="song-img">
+                    <a href="#player"><img src="Image/Flume_-_Skin.png"></a>
+                    </div>
+                    <div class="songs-name inb">
+                        <b>Mirage</b><br>
+                        <p>Else</p>
+                    </div>
+                    <div class="song-icon">
+                        <i id="heart" class="far fa fa-heart-o inb"></i>
+                        <i id="plus" class="fas fa fa-plus"></i>
+                    </div>
+               </div>
+                <div class="song-list">
+                    <span>09</span>
+                    <div class="song-img">
+                        <a href="#player"><img src="Image/mir.jpg"></a>
+                    </div>
+                    <div class="songs-name inb">
+                        <b>Mirage</b><br>
+                        <p>Else</p>
+                    </div>
+                    <div class="song-icon">
+                        <i id="heart" class="far fa fa-heart-o inb"></i>
+                        <i id="plus" class="fas fa fa-plus"></i>
+                    </div>
+               </div>
+                <div class="song-list">
+                    <span>10</span>
+                    <div class="song-img">
+                        <a href="#player"><img src="Image/Flume_-_Skin.png"></a>
+                    </div>
+                    <div class="songs-name inb">
+                        <b>Mirage</b><br>
+                        <p>Else</p>
+                    </div>
+                    <div class="song-icon">
+                        <i id="heart" class="far fa fa-heart-o inb"></i>
+                        <i id="plus" class="fas fa fa-plus"></i>
+                    </div>
+               </div>
+               
+           </section>
+       </section>
+       <aside id="aside" class="inb">
+            <div id="similar-artist" class="scroll">
+                 <div id="heading">
+                     <h1>Similar Artist</h1>
+                    <a href="#">View All</a>
+                 </div>
+                 <div id="similar-songs">
+                    <a href="#player"><img class="inb" src="Image/img.jpg"></a>
+                    <div class="song-info inb">
+                    <b>Imagine Dragongs</b>
+                    <p>Pop Band</p>
+                    <span>44.4</span>
+                    </div>
+                    <div class="drop">
+                        <i class="fas fa fa-ellipsis-h"></i>
+                        <div class="drop-menu">
+                            <a href="">Play now</a><br>
+                            <a href="">Add to playlist</a>
+                        </div>
+                        </div>
+                </div>
+                <div id="similar-songs">
+                    <a href="#player"><img class="inb" src="Image/img.jpg"></a>
+                        <div class="song-info inb">
+                        <b>Imagine Dragongs</b>
+                        <p>Pop Band</p>
+                        <span>44.4</span>
+                        </div>
+                        <div class="drop">
+                            <i class="fas fa fa-ellipsis-h"></i>
+                            <div class="drop-menu">
+                                <a href="">Play now</a><br>
+                                <a href="">Add to playlist</a>
+                            </div>
+                            </div>
+                </div>
+                <div id="similar-songs">
+                        <a href="#player"><img class="inb" src="Image/img.jpg"></a>
+                        <div class="song-info inb">
+                        <b>Imagine Dragongs</b>
+                        <p>Pop Band</p>
+                        <span>44.4</span>
+                        </div>
+                        <div class="drop">
+                            <i class="fas fa fa-ellipsis-h"></i>
+                            <div class="drop-menu">
+                                <a href="">Play now</a><br>
+                                <a href="">Add to playlist</a>
+                            </div>
+                            </div>
+                </div>
+                 </div>
+                  
+            </div>
+            <div id="recent-played">
+                    <div id="similar-artist" class="scroll">
+                            <div id="heading">
+                                <h1>
+                                    Recently Played
+                                </h1>
+                               <a href="#">View All</a>
+                               </div>
+                               <a href="#player"><div class="song-list recent">
+                                    <span>01</span>
+                                    <div class="song-img">
+                                        <img src="Image/mir.jpg">
+                                    </div>
+                                    <div class="songs-name inb">
+                                        <b>Mirage</b><br>
+                                        <p>Else</p>
+                                    </div>
+                                    <div class="song-icon">
+                                        <i id="heart" class="far fa fa-heart-o inb"></i>
+                                    </div>
+                    </div></a>
+                    <a href="#player"><div class="song-list recent">
+                            <span>02</span>
+                            <div class="song-img">
+                                <img src="Image/Flume_-_Skin.png">
+                            </div>
+                            <div class="songs-name inb">
+                                <b>Mirage</b><br>
+                                <p>Else</p>
+                            </div>
+                            <div class="song-icon">
+                                <i id="heart" class="far fa fa-heart-o inb"></i>
+                               
+                            </div>
+                       </div></a>
+                       <a href="#player"><div class="song-list recent">
+                            <span>03</span>
+                            <div class="song-img">
+                                <img src="Image/mir.jpg">
+                            </div>
+                            <div class="songs-name inb">
+                                <b>Mirage</b><br>
+                                <p>Else</p>
+                            </div>
+                            <div class="song-icon">
+                                <i id="heart" class="far fa fa-heart-o inb"></i>
+                                
+                            </div>
+                       </div></a>
+                       <a href="#player"><div class="song-list recent">
+                            <span>04</span>
+                            <div class="song-img">
+                                <img src="Image/Flume_-_Skin.png">
+                            </div>
+                            <div class="songs-name inb">
+                                <b>Mirage</b><br>
+                                <p>Else</p>
+                            </div>
+                            <div class="song-icon">
+                                <i id="heart" class="far fa fa-heart-o inb"></i>
+                                
+                            </div>
+                       </div></a>
+                       <a href="#player"><div class="song-list recent">
+                            <span>05</span>
+                            <div class="song-img">
+                                <img src="Image/mir.jpg">
+                            </div>
+                            <div class="songs-name inb">
+                                <b>Mirage</b><br>
+                                <p>Else</p>
+                            </div>
+                            <div class="song-icon">
+                                <i id="heart" class="far fa fa-heart-o inb"></i>
+                               
+                            </div>
+                       </div></a>
+                       <a href="#player"><div class="song-list recent">
+                            <span>06</span>
+                            <div class="song-img">
+                                <img src="Image/Flume_-_Skin.png">
+                            </div>
+                            <div class="songs-name inb">
+                                <b>Mirage</b><br>
+                                <p>Else</p>
+                            </div>
+                            <div class="song-icon">
+                                <i id="heart" class="far fa fa-heart-o inb"></i>
+                                
+                            </div>
+                       </div></a>
+                       <a href="#player"><div class="song-list recent">
+                            <span>07</span>
+                            <div class="song-img">
+                                <img src="Image/mir.jpg">
+                            </div>
+                            <div class="songs-name inb">
+                                <b>Mirage</b><br>
+                                <p>Else</p>
+                            </div>
+                            <div class="song-icon">
+                                <i id="heart" class="far fa fa-heart-o inb"></i>
+                               
+                            </div>
+                       </div></a>
+                       <a href="#player"><div class="song-list recent">
+                            <span>08</span>
+                            <div class="song-img">
+                                <img src="Image/Flume_-_Skin.png">
+                            </div>
+                            <div class="songs-name inb">
+                                <b>Mirage</b><br>
+                                <p>Else</p>
+                            </div>
+                            <div class="song-icon">
+                                <i id="heart" class="far fa fa-heart-o inb"></i>
+                                
+                            </div>
+                       </div></a>
+                       <a href="#player"><div class="song-list recent">
+                            <span>09</span>
+                            <div class="song-img">
+                                <img src="Image/mir.jpg">
+                            </div>
+                            <div class="songs-name inb">
+                                <b>Mirage</b><br>
+                                <p>Else</p>
+                            </div>
+                            <div class="song-icon">
+                                <i id="heart" class="far fa fa-heart-o inb"></i>
+                                
+                            </div>
+                       </div></a>
+                       <a href="#player"><div class="song-list recent">
+                            <span>10</span>
+                            <div class="song-img">
+                                <img src="Image/Flume_-_Skin.png">
+                            </div>
+                            <div class="songs-name inb">
+                                <b>Mirage</b><br>
+                                <p>Else</p>
+                            </div>
+                            <div class="song-icon">
+                                <i id="heart" class="far fa fa-heart-o inb"></i>
+                            </div>
+                       </div></a>
+
+                    </div>
+            </div>
+       </aside>
+       <footer id="player" class="inb">
+            <div id="song-img" class="inb">
+                   <img src="Image/some.jpg">
+            </div>  
+            <div class="songs-names inb">
+                    <b>Somthing just like this</b><br>
+                    <p>Memories</p>
+            </div>
+            <div class="song-icons inb">
+                    <i id="heart" class="far fa fa-heart-o inb"></i>
+                    <i id="plus" class="fas fa fa-ban"></i>
+            </div>
+            <div class="inb audio-play">
+                <i id="audio-pl" class="far fa fa-play-circle-o"></i>
+                <i id="forward" class="fas fa fa-step-forward"></i>
+                <i id="back" class="fas fa fa-step-backward"></i>
+                <i id="ran" class="fas fa fa-random"></i>
+                <i id="share" class="fas fa fa-share"></i>
+                <span id="start">0:00</span> 
+                <span id="end">4:44</span>
+                <div class="audio-len">
+                        <i id="circle" class="fas fa fa-circle"></i>
+                </div>
+                <div class="audio-rev">
+                </div>
+            </div>
+           <a href="#"><i id="close" class="fas fa fa-times"></i></a>
+           <i class="fas fa fa-compress" style=" position:absolute;top:0;right:30;color:white;font-size: 25px;"></i>
+           <i class="fas fa fa-volume-up" style=" position:absolute;top:0;right:60;color:white;font-size: 25px;"></i>
+        </footer>
+    </body>
+</html>
